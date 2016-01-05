@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Semaine 09 - lun. 04 jan. -> ven. 08 jan. 2016</title>
+    <link rel="stylesheet" href="assets/css/master.css" media="screen" title="no title" charset="utf-8">
+  </head>
+
+  <body>
+
+    <h1>Semaine 9</h1>
+
+    <h2>On passe au Responsive Web-Design!</h2>
+    <p>
+      Voir site de PrestaShop<br>
+      <a href="http://demo.prestashop.com/en/?view=front" target="_blank">Démo de PrestaShop</a><br>
+      Un CMS qui s'adapte<br>
+      Yeepeeeee !
+    </p>
+
+    <h2>Les Consignes sur Simplonline :</h2>
+    <p>
+      <a href="http://simplonline.co/dashboard/consignes/39/268-le-responsive-webdesign" target="_blank">Voici le lien vers les consignes</a>
+    </p>
+
+
+    <h2>Très bon tuto</h2>
+
+    <h3>Créer une grille CSS responsive</h3>
+    <p>
+      <a href="http://deercreation.fr/article/creer-une-grille-css-responsive" target="_blank">Voici le lien vers le tuto</a><br />
+      A suivre, et à relire !
+    </p>
+    <p>
+      Pour faire un site responsive :<br>
+      Soit mettre dans le HTML un lien pour charger le CSS<br>
+      <code>
+        <pre>
+          &lt;link media="screen and (max-width: 480px)" href="css/smartphone.css" type="text/css" rel="stylesheet" /&gt;
+        </pre>
+      </code>
+    </p>
+    <p>
+      Soit directement dans un CSS existant :<br>
+      <code>
+        <pre>
+          @media screen and (max-width: 480px) {
+                  body {
+                              background : #FF0000;
+                                  }
+          }
+        </pre>
+      </code><br>
+      Et on peut combiner :
+      <code>
+        <pre>
+          @media screen and (min-width: 600px) and (max-width: 800px) and (orientation: portait) {
+
+          }
+        </pre>
+      </code>
+    </p>
+    <p>
+      Autres tutos :<br>
+      <a href="http://blog.lesieur.name/grille-css-responsive-et-semantique-sans-framework/">Grille CSS Responsive et Sémantique sans Framework</a>
+    </p>
+    <p>Autre type de grille : <a href="http://www.thegoldengrid.com/" target="_blank">La grille d'or</a></p>
+
+    <h3>Ensuite :</h3>
+    <p>
+      Faut pratiquer pour bien comprendre.<br>
+      Pour tester, il faut réduire la fenetre du navigateur ou mieux utiliser l'outil de dév qui permet de simuler un mobile/tablette/petit ecran... Ctrl+Shift+M sous firefox et sous chrome dans les outils de développement F12 + petit ecran à coté de la loupe de recherche en haut à gauche
+    </p>
+    <p>
+      Autre article intéressant:<br>
+      <a href="https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/mise-en-page-adaptative-avec-les-media-queries" target="_blank">Sur OpenClassRoom</a>
+    </p>
+
+    <hr>
+    <h2>EXEMPLE :</h2>
+      <div class="page">
+        <div class="brand"></div>
+        <div class="slogan"></div>
+        <div class="title"></div>
+        <div class="main-nav"></div>
+        <div class="overview"></div>
+        <div class="anchor-nav"></div>
+        <div class="main"></div>
+        <div class="call-to-action"></div>
+        <div class="call-to-action"></div>
+        <div class="call-to-action"></div>
+        <div class="call-to-action"></div>
+        <div class="call-to-action"></div>
+        <div class="call-to-action"></div>
+        <div class="secondary-nav"></div>
+        <div class="utils"></div>
+        <div class="legals"></div>
+      </div>
+
+  </body>
+
+</html>

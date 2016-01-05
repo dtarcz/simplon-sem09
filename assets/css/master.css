@@ -1,0 +1,95 @@
+/*-----------------------*\
+    $TEST
+\*-----------------------*/
+.brand:before,
+.slogan:before,
+.title:before,
+.main-nav:before,
+.overview:before,
+.anchor-nav:before,
+.main:before,
+.call-to-action:before,
+.secondary-nav:before,
+.legals:before,
+.utils:before {
+   width: 100%;
+   display: inline-block;
+}
+.brand:before {
+    content: "Brand";
+   background-color: rgba(0, 0, 150, 0.5);
+}
+.slogan:before {
+   content: "Slogan";
+   background-color: rgba(150, 150, 0, 0.5);
+}
+.title:before {
+   content: "Title";
+   background-color: rgba(255, 0, 0, 0.2);
+}
+.main-nav:before {
+   content: "Nav";
+   background-color: rgba(0, 255, 0, 0.2);
+}
+.overview:before {
+   content: "Overview";
+   background-color: rgba(150, 0, 0, 0.5);
+}
+.anchor-nav:before {
+   content: "Anchor nav";
+   background-color: rgba(0, 0, 255, 0.2);
+}
+.main:before {
+   content: "Main";
+   background-color: rgba(255, 255, 0, 0.2);
+}
+.call-to-action:before {
+   content: "Call to action";
+   background-color: rgba(255, 0, 255, 0.2);
+}
+.secondary-nav:before {
+   content: "Secondary nav";
+   background-color: rgba(0, 150, 0, 0.5);
+}
+.legals:before {
+   content: "Legals";
+   background-color: rgba(0, 255, 255, 0.2);
+}
+.utils:before {
+   content: "Utils";
+   background-color: rgba(150, 0, 150, 0.5);
+}
+
+
+
+
+
+
+
+
+body{
+  width: 960px;
+  margin: auto;
+}
+
+.secret {
+  background-color: #e74c3c;
+  color: #ecf0f1;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  font-family: fantasy;
+}
+
+.date {
+  position: relative;
+  left: 40px;
+  top: 60px;
+  background-color: #444444;
+  color: #F5E9D9;
+  font-weight: bold;
+  height: 400px;
+  padding: 10px;
+}
